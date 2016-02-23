@@ -7,12 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C50100E6C9061B997B36596 /* Pods_RealmGH3170.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B4368AA8121F02AC382E1E /* Pods_RealmGH3170.framework */; };
+		E85AB31E1C7D15DB000E6407 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85AB31D1C7D15DB000E6407 /* Models.swift */; };
+		E85AB3271C7D1646000E6407 /* FrameworkB.h in Headers */ = {isa = PBXBuildFile; fileRef = E85AB3261C7D1646000E6407 /* FrameworkB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E85AB32E1C7D1646000E6407 /* FrameworkB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85AB3241C7D1646000E6407 /* FrameworkB.framework */; };
+		E85AB3331C7D1646000E6407 /* FrameworkBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85AB3321C7D1646000E6407 /* FrameworkBTests.swift */; };
+		E85AB33B1C7D1650000E6407 /* RealmGH3170.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F6E5221C7D1575009D39A5 /* RealmGH3170.framework */; };
+		E85AB33D1C7D1668000E6407 /* FrameworkB.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85AB33C1C7D1668000E6407 /* FrameworkB.swift */; };
 		E8F6E5261C7D1575009D39A5 /* RealmGH3170.h in Headers */ = {isa = PBXBuildFile; fileRef = E8F6E5251C7D1575009D39A5 /* RealmGH3170.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8F6E52D1C7D1575009D39A5 /* RealmGH3170.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F6E5221C7D1575009D39A5 /* RealmGH3170.framework */; };
 		E8F6E5321C7D1575009D39A5 /* RealmGH3170Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F6E5311C7D1575009D39A5 /* RealmGH3170Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		E85AB32F1C7D1646000E6407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8F6E5191C7D1575009D39A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E85AB3231C7D1646000E6407;
+			remoteInfo = FrameworkB;
+		};
 		E8F6E52E1C7D1575009D39A5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E8F6E5191C7D1575009D39A5 /* Project object */;
@@ -23,6 +37,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C3B4368AA8121F02AC382E1E /* Pods_RealmGH3170.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmGH3170.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8FB0C96231D19267707898D /* Pods-RealmGH3170.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmGH3170.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealmGH3170/Pods-RealmGH3170.debug.xcconfig"; sourceTree = "<group>"; };
+		CFF70786C26D4A66742372DC /* Pods-RealmGH3170.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmGH3170.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmGH3170/Pods-RealmGH3170.release.xcconfig"; sourceTree = "<group>"; };
+		E85AB31D1C7D15DB000E6407 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		E85AB3241C7D1646000E6407 /* FrameworkB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E85AB3261C7D1646000E6407 /* FrameworkB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameworkB.h; sourceTree = "<group>"; };
+		E85AB3281C7D1646000E6407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E85AB32D1C7D1646000E6407 /* FrameworkBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrameworkBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E85AB3321C7D1646000E6407 /* FrameworkBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkBTests.swift; sourceTree = "<group>"; };
+		E85AB3341C7D1646000E6407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E85AB33C1C7D1668000E6407 /* FrameworkB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameworkB.swift; sourceTree = "<group>"; };
 		E8F6E5221C7D1575009D39A5 /* RealmGH3170.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RealmGH3170.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F6E5251C7D1575009D39A5 /* RealmGH3170.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealmGH3170.h; sourceTree = "<group>"; };
 		E8F6E5271C7D1575009D39A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -32,10 +57,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E85AB3201C7D1646000E6407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E85AB33B1C7D1650000E6407 /* RealmGH3170.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E85AB32A1C7D1646000E6407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E85AB32E1C7D1646000E6407 /* FrameworkB.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E8F6E51E1C7D1575009D39A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C50100E6C9061B997B36596 /* Pods_RealmGH3170.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,12 +92,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A91810939F54B3463CA2EF5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3B4368AA8121F02AC382E1E /* Pods_RealmGH3170.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C797584790451164203E256D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8FB0C96231D19267707898D /* Pods-RealmGH3170.debug.xcconfig */,
+				CFF70786C26D4A66742372DC /* Pods-RealmGH3170.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E85AB3251C7D1646000E6407 /* FrameworkB */ = {
+			isa = PBXGroup;
+			children = (
+				E85AB3261C7D1646000E6407 /* FrameworkB.h */,
+				E85AB33C1C7D1668000E6407 /* FrameworkB.swift */,
+				E85AB3281C7D1646000E6407 /* Info.plist */,
+			);
+			path = FrameworkB;
+			sourceTree = "<group>";
+		};
+		E85AB3311C7D1646000E6407 /* FrameworkBTests */ = {
+			isa = PBXGroup;
+			children = (
+				E85AB3321C7D1646000E6407 /* FrameworkBTests.swift */,
+				E85AB3341C7D1646000E6407 /* Info.plist */,
+			);
+			path = FrameworkBTests;
+			sourceTree = "<group>";
+		};
 		E8F6E5181C7D1575009D39A5 = {
 			isa = PBXGroup;
 			children = (
 				E8F6E5241C7D1575009D39A5 /* RealmGH3170 */,
 				E8F6E5301C7D1575009D39A5 /* RealmGH3170Tests */,
+				E85AB3251C7D1646000E6407 /* FrameworkB */,
+				E85AB3311C7D1646000E6407 /* FrameworkBTests */,
 				E8F6E5231C7D1575009D39A5 /* Products */,
+				C797584790451164203E256D /* Pods */,
+				A91810939F54B3463CA2EF5B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +146,8 @@
 			children = (
 				E8F6E5221C7D1575009D39A5 /* RealmGH3170.framework */,
 				E8F6E52C1C7D1575009D39A5 /* RealmGH3170Tests.xctest */,
+				E85AB3241C7D1646000E6407 /* FrameworkB.framework */,
+				E85AB32D1C7D1646000E6407 /* FrameworkBTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				E8F6E5251C7D1575009D39A5 /* RealmGH3170.h */,
+				E85AB31D1C7D15DB000E6407 /* Models.swift */,
 				E8F6E5271C7D1575009D39A5 /* Info.plist */,
 			);
 			path = RealmGH3170;
@@ -89,6 +174,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		E85AB3211C7D1646000E6407 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E85AB3271C7D1646000E6407 /* FrameworkB.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E8F6E51F1C7D1575009D39A5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -100,14 +193,52 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		E85AB3231C7D1646000E6407 /* FrameworkB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E85AB3351C7D1646000E6407 /* Build configuration list for PBXNativeTarget "FrameworkB" */;
+			buildPhases = (
+				E85AB31F1C7D1646000E6407 /* Sources */,
+				E85AB3201C7D1646000E6407 /* Frameworks */,
+				E85AB3211C7D1646000E6407 /* Headers */,
+				E85AB3221C7D1646000E6407 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FrameworkB;
+			productName = FrameworkB;
+			productReference = E85AB3241C7D1646000E6407 /* FrameworkB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E85AB32C1C7D1646000E6407 /* FrameworkBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E85AB3381C7D1646000E6407 /* Build configuration list for PBXNativeTarget "FrameworkBTests" */;
+			buildPhases = (
+				E85AB3291C7D1646000E6407 /* Sources */,
+				E85AB32A1C7D1646000E6407 /* Frameworks */,
+				E85AB32B1C7D1646000E6407 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E85AB3301C7D1646000E6407 /* PBXTargetDependency */,
+			);
+			name = FrameworkBTests;
+			productName = FrameworkBTests;
+			productReference = E85AB32D1C7D1646000E6407 /* FrameworkBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E8F6E5211C7D1575009D39A5 /* RealmGH3170 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8F6E5361C7D1575009D39A5 /* Build configuration list for PBXNativeTarget "RealmGH3170" */;
 			buildPhases = (
+				874DB006D6FFA2DE8943278C /* Check Pods Manifest.lock */,
 				E8F6E51D1C7D1575009D39A5 /* Sources */,
 				E8F6E51E1C7D1575009D39A5 /* Frameworks */,
 				E8F6E51F1C7D1575009D39A5 /* Headers */,
 				E8F6E5201C7D1575009D39A5 /* Resources */,
+				7498262A1FD82A1353DA0299 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,6 +277,12 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Realm;
 				TargetAttributes = {
+					E85AB3231C7D1646000E6407 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					E85AB32C1C7D1646000E6407 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					E8F6E5211C7D1575009D39A5 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -168,11 +305,27 @@
 			targets = (
 				E8F6E5211C7D1575009D39A5 /* RealmGH3170 */,
 				E8F6E52B1C7D1575009D39A5 /* RealmGH3170Tests */,
+				E85AB3231C7D1646000E6407 /* FrameworkB */,
+				E85AB32C1C7D1646000E6407 /* FrameworkBTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E85AB3221C7D1646000E6407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E85AB32B1C7D1646000E6407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E8F6E5201C7D1575009D39A5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -189,11 +342,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7498262A1FD82A1353DA0299 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmGH3170/Pods-RealmGH3170-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		874DB006D6FFA2DE8943278C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		E85AB31F1C7D1646000E6407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E85AB33D1C7D1668000E6407 /* FrameworkB.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E85AB3291C7D1646000E6407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E85AB3331C7D1646000E6407 /* FrameworkBTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E8F6E51D1C7D1575009D39A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E85AB31E1C7D15DB000E6407 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +411,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		E85AB3301C7D1646000E6407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E85AB3231C7D1646000E6407 /* FrameworkB */;
+			targetProxy = E85AB32F1C7D1646000E6407 /* PBXContainerItemProxy */;
+		};
 		E8F6E52F1C7D1575009D39A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E8F6E5211C7D1575009D39A5 /* RealmGH3170 */;
@@ -216,6 +424,67 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		E85AB3361C7D1646000E6407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = FrameworkB/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.realm.FrameworkB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E85AB3371C7D1646000E6407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = FrameworkB/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.realm.FrameworkB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E85AB3391C7D1646000E6407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FrameworkBTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.realm.FrameworkBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E85AB33A1C7D1646000E6407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FrameworkBTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.realm.FrameworkBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		E8F6E5341C7D1575009D39A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -304,7 +573,9 @@
 		};
 		E8F6E5371C7D1575009D39A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8FB0C96231D19267707898D /* Pods-RealmGH3170.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -317,12 +588,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.realm.RealmGH3170;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		E8F6E5381C7D1575009D39A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFF70786C26D4A66742372DC /* Pods-RealmGH3170.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -363,6 +637,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E85AB3351C7D1646000E6407 /* Build configuration list for PBXNativeTarget "FrameworkB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E85AB3361C7D1646000E6407 /* Debug */,
+				E85AB3371C7D1646000E6407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E85AB3381C7D1646000E6407 /* Build configuration list for PBXNativeTarget "FrameworkBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E85AB3391C7D1646000E6407 /* Debug */,
+				E85AB33A1C7D1646000E6407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		E8F6E51C1C7D1575009D39A5 /* Build configuration list for PBXProject "RealmGH3170" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -379,6 +669,7 @@
 				E8F6E5381C7D1575009D39A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8F6E5391C7D1575009D39A5 /* Build configuration list for PBXNativeTarget "RealmGH3170Tests" */ = {
 			isa = XCConfigurationList;
@@ -387,6 +678,7 @@
 				E8F6E53B1C7D1575009D39A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
